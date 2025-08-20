@@ -154,6 +154,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 ## 👤 Author
 
 **Sanjana Shetty**
-- Portfolio: [Your Portfolio URL]
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn]
+- Portfolio: https://sanjana-shetty.vercel.app/
+- GitHub: (https://github.com/ShettySanjana)
+- LinkedIn: https://www.linkedin.com/in/sanjana-shetty-78471628a
