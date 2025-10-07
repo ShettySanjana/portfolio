@@ -162,7 +162,7 @@ const Projects = () => {
       image: '/projects/san-net.jpg', // Modern social network dashboard interface
       tech: ['Django', 'React',  'dbsqlite', 'Tailwind CSS'],
       liveLink: 'https://san-net.onrender.com/',
-      codeLink: 'https://github.com/sanjana/san-net',
+      codeLink: 'https://github.com/ShettySanjana/SANNET',
       features: [
         'Real-time messaging using WebSocket',
         'News feed with infinite scroll',
@@ -192,15 +192,31 @@ const Projects = () => {
       title: 'College Transport System',
       description: 'A comprehensive web application built with Django that helps manage transportation for students and drivers. Features include secure transport tracking, real-time bus location monitoring, and efficient route management.',
       image: '/projects/transport.jpg', // Transport tracking interface with map
-      tech: ['Django', 'Tailwind CSS', 'dbsqlite', 'Google Maps API'],
+      tech: ['Django', 'Tailwind CSS', 'dbsqlite'],
       demoLink: 'https://transport-system.demo',
-      codeLink: 'https://github.com/sanjana/transport-system',
+      codeLink: 'https://github.com/ShettySanjana/ClgTransportation',
       features: [
         'Real-time bus tracking',
         'Route optimization',
         'Driver management',
         'Student schedules',
         'Mobile-friendly design'
+      ]
+    },
+    {
+      id: 4,
+      title: 'AI/ML Deepfake Detection System',
+      description: 'An advanced deepfake detection system built with Django and machine learning. Utilizes ResNeXt50 and LSTM pre-trained models to analyze and predict deepfake content with high accuracy. Features a user-friendly web interface for uploading and analyzing media files.',
+      image: '/projects/deepfake-detection.jpg', // ML model interface showing prediction results
+      tech: ['Django', 'Python', 'ResNeXt50', 'LSTM', 'OpenCV', 'NumPy'],
+      demoLink: 'https://deepfake-detection.demo',
+      codeLink: 'https://github.com/NitinP5156/Deepfakeproject',
+      features: [
+        'ResNeXt50 pre-trained model integration',
+        'LSTM-based temporal analysis',
+        'Real-time video processing',
+        'High accuracy prediction system',
+        'Django web interface'
       ]
     }
   ];
@@ -251,11 +267,11 @@ const Projects = () => {
                 {/* Content Container */}
                 <div className='absolute inset-[2px] rounded-xl bg-[#010201] p-6 flex flex-col h-full'>
                   {/* Project Image Container - Adjusted height */}
-                  <div className='relative h-[300px] rounded-lg overflow-hidden'>
+                  <div className='relative h-[400px] rounded-lg overflow-hidden'>
                     <img 
                       src={project.image} 
                       alt={project.title}
-                      className='w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500'
+                      className='w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500 brightness-110 contrast-110'
                       loading="lazy"
                     />
                     <div className='absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
